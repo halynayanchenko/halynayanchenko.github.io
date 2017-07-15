@@ -171,6 +171,14 @@ a::after {
     margin: 2em 0;
 }
 
+#social {
+    text-align: center;
+}
+
+#social .fb-page {
+    display: inline-block;
+}
+
 #page-footer p {
     font-size: 0.8em;
     color: #676767;
