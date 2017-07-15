@@ -103,6 +103,12 @@ ul > li::before {
     content: "\f046";
 }
 
+.animated {
+    -webkit-animation-duration: 0.5s
+    -moz-animation-duration: 0.5s
+    animation-duration: 0.5s;
+}
+
 .container {
     display: block;
     position: relative;
@@ -171,8 +177,29 @@ ul > li::before {
     border-color: #c00710;
 }
 
+#page-header {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+#intro-section {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+#faq-section {
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
 #join-us-section {
     text-align: center;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 #join-us-section .button {
@@ -183,6 +210,9 @@ ul > li::before {
     width: 100%;
     max-width: 100%;
     text-align: center;
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s;
 }
 
 #social-section .fb-page {
